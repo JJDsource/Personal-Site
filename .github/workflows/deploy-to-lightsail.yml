@@ -1,7 +1,7 @@
 name: Deploy to Lightsail
 on: [push]
 jobs:
-  Deploy to Lightsail:
+  Deploy-to-Lightsail:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
