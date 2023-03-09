@@ -16,10 +16,6 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-      - name: Install Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: '10.x'
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
