@@ -8,6 +8,3 @@ Playing with
 - Github Actions
 - AWS/lightsail
 - Basic CSS/HTML
-
-Configured to deploy to AWS LightSail instance with [ssh-deploy](https://github.com/marketplace/actions/ssh-deploy)
-
