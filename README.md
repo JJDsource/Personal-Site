@@ -7,4 +7,4 @@ Playing with
 - Basics of Git
 - Github Actions
 - AWS/lightsail
-- Basic CSS/HTML
+- Basic CSS/HTML/JavaScript
