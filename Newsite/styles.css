@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 18px; /* Increase base font size */
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.toggle-btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.toggle-btn:hover {
+    background-color: #0056b3;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro h1 {
+    font-size: 2.5rem; /* Increase heading font size */
+}
+
+.links {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.links h2 {
+    font-size: 2rem; /* Increase heading font size */
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.photos {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.photos h2 {
+    font-size: 2rem; /* Increase heading font size */
+}
+
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo-grid img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    margin: 10px;
+}
+
+/* Dark mode styles */
+[data-theme="dark"] {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+[data-theme="dark"] a {
+    color: #f1f1f1;
+}
+
+[data-theme="dark"] .toggle-btn {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+[data-theme="dark"] header,
+[data-theme="dark"] nav,
+[data-theme="dark"] main,
+[data-theme="dark"] footer {
+    background-color: #333;
+    border-color: #555;
+}
