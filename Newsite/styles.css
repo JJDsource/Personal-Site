@@ -20,18 +20,16 @@ nav {
 }
 
 .toggle-btn {
-    background-color: #007BFF;
-    color: #fff;
+    background-color: transparent;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
+    font-size: 1.5rem;
+    color: #333;
+    transition: color 0.3s;
 }
 
 .toggle-btn:hover {
-    background-color: #0056b3;
+    color: #007BFF;
 }
 
 .intro {
@@ -99,8 +97,11 @@ nav {
 }
 
 [data-theme="dark"] .toggle-btn {
-    background-color: #f1f1f1;
-    color: #333;
+    color: #f1f1f1;
+}
+
+[data-theme="dark"] .toggle-btn:hover {
+    color: #0056b3;
 }
 
 [data-theme="dark"] header,
