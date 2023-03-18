@@ -86,6 +86,17 @@ nav {
     margin: 10px;
 }
 
+.photo-grid figure {
+    margin: 10px;
+}
+
+.photo-grid figcaption {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+    color: #666;
+}
+
 /* Dark mode styles */
 [data-theme="dark"] {
     background-color: #333;
@@ -110,4 +121,9 @@ nav {
 [data-theme="dark"] footer {
     background-color: #333;
     border-color: #555;
+}
+
+/* Add the following line under the [data-theme="dark"] section */
+[data-theme="dark"] .photo-grid figcaption {
+    color: #ccc;
 }
