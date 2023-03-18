@@ -97,6 +97,63 @@ nav {
     color: #666;
 }
 
+.book-section {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .book-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .book-section ul {
+    list-style: none;
+  }
+
+  .book-section li {
+    margin-bottom: 5px;
+  }
+  
+  .book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .book-list-item {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .book-list-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .book-list-item h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .book-list-item p {
+    margin-top: 5px;
+    font-size: 0.9rem;
+  }
+
+  .book-section p.section-header {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+  
+
 /* Dark mode styles */
 [data-theme="dark"] {
     background-color: #333;
