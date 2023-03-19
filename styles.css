@@ -152,6 +152,16 @@ nav {
     margin-top: 10px;
     margin-bottom: 5px;
 }
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    color: #666;
+}
+
   
 
 /* Dark mode styles */
@@ -182,5 +192,10 @@ nav {
 
 /* Add the following line under the [data-theme="dark"] section */
 [data-theme="dark"] .photo-grid figcaption {
+    color: #ccc;
+}
+
+[data-theme="dark"] footer {
+    border-color: #555;
     color: #ccc;
 }
