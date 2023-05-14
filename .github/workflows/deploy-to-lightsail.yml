@@ -25,6 +25,9 @@ jobs:
       - name: Sync Large Media from AWS Bucket
         run: |
           aws s3 sync s3://jjdsource.com-large-media ./media/
+      - name: Update Date
+        run: |
+          sed -i "s/INSERTDATE/$(date)/g" index.html
       - name: Deploy to Server
         uses: easingthemes/ssh-deploy@main
         with:
