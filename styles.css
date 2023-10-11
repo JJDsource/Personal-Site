@@ -56,51 +56,39 @@ main {
     text-align: center;
 }
 
-.keysandfiles {
+.keysandfileslinks {
     text-align: center;
     margin-bottom: 20px;
 }
 
-.keysandfiles h2 {
+.keysandfileslinks h2 {
     font-size: 2rem; /* Increase heading font size */
 }
 
-.keysandfiles ul {
+.keysandfileslinks ul {
     list-style-type: none;
 }
 
-.keysandfiles li {
+.keysandfileslinks li {
     display: inline;
     margin-right: 10px;
 }
 
-.keysandfiles a {
+.keysandfileslinks a {
     text-decoration: none;
     color: #333;
 }
 
-.links {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.links h2 {
-    font-size: 2rem; /* Increase heading font size */
-}
-
-.links ul {
-    list-style-type: none;
-}
-
-.links li {
-    display: inline;
-    margin-right: 10px;
-}
-
-.links a {
-    text-decoration: none;
-    color: #333;
-}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
 
 .bitcoin {
     text-align: center;
@@ -261,3 +249,4 @@ footer {
     border-color: #555;
     color: #ccc;
 }
+
