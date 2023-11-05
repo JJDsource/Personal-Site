@@ -13,6 +13,10 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
       - run: echo "The ${{ github.repository }} repository has been cloned to the runner."
+      - name: Spell Check
+        uses: rojopolis/spellcheck-github-actions@0.34.0
+        with:
+          args: "**/*.md"
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
@@ -27,5 +31,5 @@ jobs:
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.REMOTE_TARGET }}
-          EXCLUDE: "/.github/"
+          EXCLUDE: "/.github/, /.wordlist.txt, /.spellcheck.yml"
       - run: echo "This job's status is ${{ job.status }}."
