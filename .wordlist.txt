@@ -4,7 +4,6 @@ audiobooks
 Github
 Strava
 goodreads
-Linkedin
 mempool
 Hermann
 Dalio
@@ -26,3 +25,5 @@ DevOps
 https
 jjdsource
 lightsail
+LinkedIn
+Linkedin
