@@ -40,5 +40,6 @@ jobs:
           TARGET: ${{ secrets.REMOTE_TARGET }}
           EXCLUDE: "/.github/, /.wordlist.txt, /.spellcheck.yml, /LICENSE, /README.md, /dictionary.dic, /.git/, /.gitattributes /jjdsource.com"
           SCRIPT_AFTER: |
+            sudo nginx -t
             sudo systemctl reload nginx
       - run: echo "This job's status is ${{ job.status }}."
